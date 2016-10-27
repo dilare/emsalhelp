@@ -32,6 +32,11 @@ namespace LeftMenu1.Controllers
         public ActionResult Index5()
         {
             return View();
+
+        }
+            public ActionResult Index6()
+        {
+            return View();
         }
     }
 }

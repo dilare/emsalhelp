@@ -120,6 +120,34 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\emsalHelp.css" />
+    <Content Include="Content\image\image1.png" />
+    <Content Include="Content\image\image10.png" />
+    <Content Include="Content\image\image11.png" />
+    <Content Include="Content\image\image12.png" />
+    <Content Include="Content\image\image13.png" />
+    <Content Include="Content\image\image14.png" />
+    <Content Include="Content\image\image16.png" />
+    <Content Include="Content\image\image17.png" />
+    <Content Include="Content\image\image18.png" />
+    <Content Include="Content\image\image19.png" />
+    <Content Include="Content\image\image2.png" />
+    <Content Include="Content\image\image20.png" />
+    <Content Include="Content\image\image21.png" />
+    <Content Include="Content\image\image22.png" />
+    <Content Include="Content\image\image23.png" />
+    <Content Include="Content\image\image24.png" />
+    <Content Include="Content\image\image25.png" />
+    <Content Include="Content\image\image26.png" />
+    <Content Include="Content\image\image27.png" />
+    <Content Include="Content\image\image28.png" />
+    <Content Include="Content\image\image3.png" />
+    <Content Include="Content\image\image4.jpg" />
+    <Content Include="Content\image\image5.png" />
+    <Content Include="Content\image\image6.png" />
+    <Content Include="Content\image\image7.png" />
+    <Content Include="Content\image\image8.png" />
+    <Content Include="Content\image\image9.png" />
+    <Content Include="Content\image\StyleSheet1.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -159,6 +187,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Index6.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
