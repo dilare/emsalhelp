@@ -14,14 +14,14 @@
 </head>
 
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" >
+    @*<div class="navbar navbar-inverse navbar-fixed-top" >
         <div class="container">
             <div class="navbar-header">
-                @*<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>*@
+                </button>
 
                 <a href="http://emsal.az" class="navbar-brand">emsal.az</a>
             </div>
@@ -29,7 +29,7 @@
                 <ul class="nav navbar-nav"></ul>
             </div>
         </div>
-    </div>
+    </div>*@
 
    
 
@@ -44,42 +44,37 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="~/Content/emsalHelp.css" rel="stylesheet" />
-    <div class="nav-side-menu col-lg-2">
-        <div class="brand">Emsal Kömək </div>
-        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse"
-           data-target="#menu-content"></i>
+  
+    <div class="nav-side-menu">
+        <div class="brand"><a href="http://emsal.az/" style="color:white">emsal.az</a></div>
+        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
 
         <div class="menu-list">
 
-
             <ul id="menu-content" class="menu-content collapse out">
+                
 
-            <li data-toggle="collapse" data-target="#service" class="collapsed">
-                <a href="#">
-                    <i class="fa fa-globe fa-lg"></i>Emsal Kömək
-                    <span class="arrow"></span>
-                </a>
-            </li>
-            <ul class="sub-menu collapse" id="service">
-                <li><span class="" style="float:left"></span><a href="/Home/Index1">Necə sifariş verə bilərəm?</a></li>
-                <li>
-                    <span class="" style="float:left"></span>
-                    <a href="/Home/Index2">
-                        KTN işlərini necə həyata keçirir?
 
-                    </a>
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                    <a href="#"><i class="fa fa-globe fa-lg"></i> Emsal Kömək <span class="arrow"></span></a>
                 </li>
-                <li><span class="" style="float:left"></span><a href="/Home/Index3">Şəxsi kabinetin yaradılması</a></li>
-                <li><span class="" style="float:left"></span><a href="/Home/Index4">Qeydiyatdan keçmək</a></li>
-                <li><span class="" style="float:left"></span><a href="/Home/Index5"> Potensial istehsalçılar və məhsullar </a></li>
-                <li><span class="" style="float:left"></span><a href="/Home/Index6">Necə sifariş yerləşdirə bilərəm? </a></li>
-            </ul>
+                @* <ul class="sub-menu collapse " id="service">  *@
+                <ul class="sub-menu " id="service">
+                    <li><span style="float:left"></span><a href="/Home/ForOrder">Necə sifariş verə bilərəm?</a></li>
+                    <li><span style="float:left"></span><a href="/Home/KTN">KTN işlərini necə həyata keçirir?</a></li>
+                    <li><span style="float:left"></span><a href="/Home/PersonalCabinet">Şəxsi kabinetin yaradılması</a></li>
+                    <li><span style="float:left"></span><a href="/Home/SignUp">Qeydiyatdan keçmək</a></li>
+                    <li><span style="float:left"></span><a href="/Home/PotentialClient">Potensial istehsalçılar və məhsullar </a></li>
+                    <li><span style="float:left"></span><a href="/Home/PlaceOrder">Necə sifariş yerləşdirə bilərəm? </a></li>
+                </ul>
 
-
+               
             </ul>
         </div>
     </div>
-    <div class="container body-content  col-lg-offset-3" style=" margin-top:40px">
+    <div class="container body-content  col-lg-offset-3" style="margin-top:40px">
+        
+     
         @RenderBody()
         <hr />
         <footer>

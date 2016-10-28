@@ -13,28 +13,28 @@ namespace LeftMenu1.Controllers
         {
             return View();
         }
-        public ActionResult Index1()
+        public ActionResult ForOrder()
         {
             return View();
         }
-        public ActionResult Index3()
+        public ActionResult KTN()
         {
             return View();
         }
-        public ActionResult Index2()
+        public ActionResult PersonalCabinet()
         {
             return View();
         }
-        public ActionResult Index4()
+        public ActionResult SignUp()
         {
             return View();
         }
-        public ActionResult Index5()
+        public ActionResult PotentialClient()
         {
             return View();
 
         }
-            public ActionResult Index6()
+            public ActionResult PlaceOrder()
         {
             return View();
         }
