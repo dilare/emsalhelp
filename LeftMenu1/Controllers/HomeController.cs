@@ -38,5 +38,17 @@ namespace LeftMenu1.Controllers
         {
             return View();
         }
+        public ActionResult PotentialProducer()
+        {
+            return View();
+        }
+        public ActionResult SellerSignUp()
+        {
+            return View();
+        }
+        public ActionResult PersonSignUp()
+        {
+            return View();
+        }
     }
 }

@@ -14,6 +14,13 @@
 </head>
 
 <body>
+    <script type="text/javascript" language="javascript">
+       // alert('Merhaba Dünya');//Merhaba Dünya uyarısı veriliyor
+        function newDoc() {
+            window.location.assign("/Home/SignUp")
+        }
+    </script>
+    
     @*<div class="navbar navbar-inverse navbar-fixed-top" >
         <div class="container">
             <div class="navbar-header">
@@ -31,7 +38,7 @@
         </div>
     </div>*@
 
-   
+
 
     @*<h2>Index</h2>*@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -63,8 +70,18 @@
                     <li><span style="float:left"></span><a href="/Home/ForOrder">Necə sifariş verə bilərəm?</a></li>
                     <li><span style="float:left;"></span><a href="/Home/KTN">Kənd Təsərrüfatı Nazirliyi işlərini necə <br /><p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> həyata keçirir?</p></a></li>
                     <li><span style="float:left"></span><a href="/Home/PersonalCabinet">Şəxsi kabinetin yaradılması</a></li>
-                    <li><span style="float:left"></span><a href="/Home/SignUp">Qeydiyatdan keçmək</a></li>
-                    <li><span style="float:left"></span><a href="/Home/PotentialClient">Potensial istehsalçılar və məhsullar </a></li>
+                    @*<li data-toggle="collapse" data-target="#service" class="collapsed"><span style="float:left" ></span><a href="/Home/SignUp">Qeydiyatdan keçmək</li>*@
+                    <li data-toggle="collapse" data-target="#service1"  >
+                        <a href="#"><span style="float:left;"></span><span class="arrow"></span>Qeydiyyat</a>
+
+                        <ul  class="sub-menu  collapse " id="service1"  >
+                            <li style="margin-left:15px"><a href="/Home/PotentialProducer">Potensial istehsalçı siyahisinda olan<p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> istehsalçı kimi</p></a></li>
+                            <li style="margin-left:15px"><a href="/Home/SellerSignUp">Satıcının qeydiyatdan keçməsi </a></li>
+                            <li style="margin-left:15px"><a href="/Home/PersonSignUp">Adi şəxsin qeydiyatdan keçməsi </a></li>
+                        </ul>
+                    </li>
+                    <li ><span style="float:left"></span><a href="/Home/PotentialClient">Potensial istehsalçılar və məhsullar</a>
+</li>
                     <li><span style="float:left"></span><a href="/Home/PlaceOrder">Necə sifariş yerləşdirə bilərəm? </a></li>
                 </ul>
 
