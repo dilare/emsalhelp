@@ -120,6 +120,34 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\emsalHelp.css" />
+    <Content Include="Content\imageLegal\image1.png" />
+    <Content Include="Content\imageLegal\image10.png" />
+    <Content Include="Content\imageLegal\image11.png" />
+    <Content Include="Content\imageLegal\image12.png" />
+    <Content Include="Content\imageLegal\image13.png" />
+    <Content Include="Content\imageLegal\image14.png" />
+    <Content Include="Content\imageLegal\image2.png" />
+    <Content Include="Content\imageLegal\image3.png" />
+    <Content Include="Content\imageLegal\image4.png" />
+    <Content Include="Content\imageLegal\image5.png" />
+    <Content Include="Content\imageLegal\image6.png" />
+    <Content Include="Content\imageLegal\image7.png" />
+    <Content Include="Content\imageLegal\image8.png" />
+    <Content Include="Content\imageLegal\image9.png" />
+    <Content Include="Content\imagePotentialOffer\image1.png" />
+    <Content Include="Content\imagePotentialOffer\image10.png" />
+    <Content Include="Content\imagePotentialOffer\image11.png" />
+    <Content Include="Content\imagePotentialOffer\image12.png" />
+    <Content Include="Content\imagePotentialOffer\image13.png" />
+    <Content Include="Content\imagePotentialOffer\image14.png" />
+    <Content Include="Content\imagePotentialOffer\image2.png" />
+    <Content Include="Content\imagePotentialOffer\image3.png" />
+    <Content Include="Content\imagePotentialOffer\image4.png" />
+    <Content Include="Content\imagePotentialOffer\image5.png" />
+    <Content Include="Content\imagePotentialOffer\image6.png" />
+    <Content Include="Content\imagePotentialOffer\image7.png" />
+    <Content Include="Content\imagePotentialOffer\image8.png" />
+    <Content Include="Content\imagePotentialOffer\image9.png" />
     <Content Include="Content\imageSellerSignUp\image1.png" />
     <Content Include="Content\imageSellerSignUp\image10.png" />
     <Content Include="Content\imageSellerSignUp\image11.png" />
@@ -237,6 +265,9 @@
     <Content Include="Views\Home\PotentialProducer.cshtml" />
     <Content Include="Views\Home\SellerSignUp.cshtml" />
     <Content Include="Views\Home\PersonSignUp.cshtml" />
+    <Content Include="Views\Home\SellerOffers.cshtml" />
+    <Content Include="Views\Home\PotentialProducerOffer.cshtml" />
+    <Content Include="Views\Home\KTNPotensialProducer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

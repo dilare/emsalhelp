@@ -50,5 +50,17 @@ namespace LeftMenu1.Controllers
         {
             return View();
         }
+        public ActionResult SellerOffers()
+        {
+            return View();
+        }
+        public ActionResult PotentialProducerOffer()
+        {
+            return View();
+        }
+        public ActionResult KTNPotensialProducer()
+        {
+            return View();
+        }
     }
 }
