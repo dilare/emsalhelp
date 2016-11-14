@@ -208,6 +208,30 @@
     <Content Include="Content\image\image7.png" />
     <Content Include="Content\image\image8.png" />
     <Content Include="Content\image\image9.png" />
+    <Content Include="Content\legalProducer1\image01.png" />
+    <Content Include="Content\legalProducer1\image1.png" />
+    <Content Include="Content\legalProducer1\image2.png" />
+    <Content Include="Content\legalProducer1\image3.png" />
+    <Content Include="Content\legalProducer1\image4.png" />
+    <Content Include="Content\legalProducer1\image5.png" />
+    <Content Include="Content\LegalSellerSignUp\image1.png" />
+    <Content Include="Content\LegalSellerSignUp\image2.png" />
+    <Content Include="Content\LegalSellerSignUp\image3.png" />
+    <Content Include="Content\LegalSellerSignUp\image4.png" />
+    <Content Include="Content\offerFiziki1\image1.png" />
+    <Content Include="Content\offerFiziki1\image10.png" />
+    <Content Include="Content\offerFiziki1\image11.png" />
+    <Content Include="Content\offerFiziki1\image12.png" />
+    <Content Include="Content\offerFiziki1\image13.png" />
+    <Content Include="Content\offerFiziki1\image14.png" />
+    <Content Include="Content\offerFiziki1\image2.png" />
+    <Content Include="Content\offerFiziki1\image3.png" />
+    <Content Include="Content\offerFiziki1\image4.png" />
+    <Content Include="Content\offerFiziki1\image5.png" />
+    <Content Include="Content\offerFiziki1\image6.png" />
+    <Content Include="Content\offerFiziki1\image7.png" />
+    <Content Include="Content\offerFiziki1\image8.png" />
+    <Content Include="Content\offerFiziki1\image9.png" />
     <Content Include="Content\Person\image01.png" />
     <Content Include="Content\Person\image1.png" />
     <Content Include="Content\Person\image10.png" />
@@ -268,6 +292,9 @@
     <Content Include="Views\Home\SellerOffers.cshtml" />
     <Content Include="Views\Home\PotentialProducerOffer.cshtml" />
     <Content Include="Views\Home\KTNPotensialProducer.cshtml" />
+    <Content Include="Views\Home\LegalProducer.cshtml" />
+    <Content Include="Views\Home\LegalSellerSignUp.cshtml" />
+    <Content Include="Views\Home\LegalPersonSignUp.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

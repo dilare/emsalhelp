@@ -34,7 +34,7 @@ namespace LeftMenu1.Controllers
             return View();
 
         }
-            public ActionResult PlaceOrder()
+        public ActionResult PlaceOrder()
         {
             return View();
         }
@@ -59,6 +59,21 @@ namespace LeftMenu1.Controllers
             return View();
         }
         public ActionResult KTNPotensialProducer()
+        {
+            return View();
+        }
+
+        public ActionResult LegalProducer()
+        {
+            return View();
+        }
+
+        public ActionResult LegalSellerSignUp()
+        {
+            return View();
+        }
+        
+         public ActionResult LegalPersonSignUp()
         {
             return View();
         }

@@ -59,7 +59,7 @@
         <div class="menu-list">
 
             <ul id="menu-content" class="menu-content collapse out">
-                
+               
 
 
                 <li data-toggle="collapse" data-target="#service" class="collapsed">
@@ -67,32 +67,69 @@
                 </li>
                 @* <ul class="sub-menu collapse " id="service">  *@
                 <ul class="sub-menu " id="service">
-                    <li><span style="float:left;"></span><a href="/Home/ForOrder"style=" font-size:14px">Necə sifariş verə bilərəm?</a></li>
-                    <li><span style="float:left;"></span><a href="/Home/KTN"style="font-size:14px">Kənd Təsərrüfatı Nazirliyi işlərini necə <br /><p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> həyata keçirir?</p></a></li>
-                    <li><span style="float:left;font-size:18px"></span><a href="/Home/PersonalCabinet"style=" font-size:14px">Şəxsi kabinetin yaradılması</a></li>
-                     <li ><span style="float:left; font-size:18px"></span><a href="/Home/PotentialClient"style=" font-size:14px">Potensial istehsalçılar və məhsullar</a></li>
-                    <li><span style="float:left; font-size:18px"></span><a href="/Home/PlaceOrder"style=" font-size:14px">Necə sifariş yerləşdirə bilərəm? </a></li>
+
                     <li data-toggle="collapse" data-target="#service1" class="collapsed">
-                        <a href="#"style="font-size:14px">Qeydiyyat<span class="arrow"></span></a>
+                        <a href="#" style="font-size:14px">Qeydiyyat<span class="arrow"></span></a>
                     </li>
                     <ul class="sub-menu collapse " id="service1">
                         <li data-toggle="collapse" data-target="#service2" class="collapsed">
-                            <a href="#"style="font-size:13px">Fiziki<span class="arrow"></span></a>
+                            <a href="#" style="font-size:13px">Fiziki<span class="arrow"></span></a>
                         </li>
                         <ul class="sub-menu collapse " id="service2">
-                            <li ><a href="/Home/PotentialProducer">Potensial istehsalçı siyahisinda olan<p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> istehsalçı kimi</p></a></li>
-                            <li ><a href="/Home/SellerSignUp">Satıcının qeydiyatdan keçməsi </a></li>
-                            <li ><a href="/Home/PersonSignUp">Adi şəxsin qeydiyatdan keçməsi </a></li>
-                            </ul>
-                            <li data-toggle="collapse" data-target="#service3" class="collapsed">
-                                <a href="#"style="font-size:13px">Huquqi<span class="arrow"></span></a>
-                            </li>
+                            <li><a href="/Home/PotentialProducer">Potensial istehsalçı siyahisinda olan<p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> istehsalçı kimi</p></a></li>
+                            <li><a href="/Home/SellerSignUp">Satıcının qeydiyatdan keçməsi </a></li>
+                            <li><a href="/Home/PersonSignUp">Adi şəxsin qeydiyatdan keçməsi </a></li>
+                        </ul>
+                        <li data-toggle="collapse" data-target="#service3" class="collapsed">
+                            <a href="#" style="font-size:13px">Huquqi<span class="arrow"></span></a>
+                        </li>
                         <ul class="sub-menu collapse " id="service3">
-                            <li ><a href="/Home/PotentialProducer"> Müstəqil qeydiyyatdan keçmiş potensial <p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px">istehsalçının təklifləri </p></a></li>
-                            <li ><a href="/Home/PotentialProducer">Satıcınin verdiyi təkliflər</a></li>
-                            <li><a href="/Home/PotentialProducer">KTN tərəfindən təsdiq edilmiş potensial <p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> istehsalçının təklifləri</p></a></li>
+                            <li><a href="/Home/LegalProducer"> Potensial istehsalçı siyahisinda olan<p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> istehsalçı kimi</p></a></li>
+                            <li><a href="/Home/LegalSellerSignUp">Satıcının qeydiyatdan keçməsi</a></li>
+                            <li><a href="/Home/LegalPersonSignUp">Müstəqil qeydiyyatdan keçən potensial<p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> istehsalçı</p></a></li>
                         </ul>
+                    </ul>
+                    <li><span style="float:left;"></span><a href="/Home/KTN"style="font-size:14px">Kənd Təsərrüfatı Nazirliyi işlərini necə <br /><p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> həyata keçirir?</p></a></li>
+                   
+                     <li ><span style="float:left; font-size:18px"></span><a href="/Home/PotentialClient"style=" font-size:14px">Potensial istehsalçılar və məhsullar</a></li>
+                    <li><span style="float:left; font-size:18px"></span><a href="/Home/PlaceOrder"style="font-size:14px">Təşkilat üzrə tələbatın yerləşdirilməsi </a></li>
+                    @* Qeydiyyat *@
+                  
+
+              
+                    <li data-toggle="collapse" data-target="#service6" class="collapsed">
+                        <a href="#" style="font-size:14px">Təklif<span class="arrow"></span></a>
+                    </li>
+                    <ul class="sub-menu collapse " id="service6">
+                        <li data-toggle="collapse" data-target="#service4" class="collapsed">
+                            <a href="#" style="font-size:13px">Fiziki<span class="arrow"></span></a>
+                        </li>
+                        <ul class="sub-menu collapse " id="service4">
+                            <li><a href="/Home/SellerOffers">Satıcının təklifləri</a></li>
+                            <li><a href="/Home/PotentialProducerOffer">Müstəqil qeydiyyatdan keçmiş potensial <p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px">istehsalçının təklifləri </p></a></li>
+                            <li><a href="/Home/KTNPotensialProducer">KTN tərəfindən təsdiq edilmiş potensial <p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> istehsalçının təklifləri</p></a></li>
                         </ul>
+                        <li data-toggle="collapse" data-target="#service5" class="collapsed">
+                            <a href="#" style="font-size:13px">Huquqi<span class="arrow"></span></a>
+                        </li>
+                        <ul class="sub-menu collapse " id="service5">
+                            <li><a href="/Home/SellerOffers">Satıcının təklifləri</a></li>
+                            <li><a href="/Home/PotentialProducer"> Müstəqil qeydiyyatdan keçmiş potensial <p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px">istehsalçının təklifləri </p></a></li>
+                            <li><a href="/Home/KTNPotensialProducer">KTN tərəfindən təsdiq edilmiş potensial <p style="margin-left:23px; margin-bottom:-4px;margin-top:-3px"> istehsalçının təklifləri</p></a></li>
+
+                        </ul>
+                    </ul>
+
+
+
+
+
+
+
+
+
+
+              
                     </ul>
                 </ul>
             
