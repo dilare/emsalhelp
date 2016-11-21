@@ -187,6 +187,7 @@
     <Content Include="Content\image\image12.png" />
     <Content Include="Content\image\image13.png" />
     <Content Include="Content\image\image14.png" />
+    <Content Include="Content\image\image15.png" />
     <Content Include="Content\image\image16.png" />
     <Content Include="Content\image\image17.png" />
     <Content Include="Content\image\image18.png" />
@@ -202,7 +203,7 @@
     <Content Include="Content\image\image27.png" />
     <Content Include="Content\image\image28.png" />
     <Content Include="Content\image\image3.png" />
-    <Content Include="Content\image\image4.jpg" />
+    <Content Include="Content\image\image4.png" />
     <Content Include="Content\image\image5.png" />
     <Content Include="Content\image\image6.png" />
     <Content Include="Content\image\image7.png" />
