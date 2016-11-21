@@ -77,5 +77,9 @@ namespace LeftMenu1.Controllers
         {
             return View();
         }
+        public ActionResult LegalPotentialProducer()
+        {
+            return View();
+        }
     }
 }

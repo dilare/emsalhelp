@@ -301,6 +301,7 @@
     <Content Include="Views\Home\LegalProducer.cshtml" />
     <Content Include="Views\Home\LegalSellerSignUp.cshtml" />
     <Content Include="Views\Home\LegalPersonSignUp.cshtml" />
+    <Content Include="Views\Home\LegalPotentialProducer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
