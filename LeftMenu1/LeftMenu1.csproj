@@ -120,6 +120,23 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\emsalHelp.css" />
+    <Content Include="Content\imageKTNPotensialProducer\image1.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image10.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image11.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image12.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image13.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image14.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image15.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image16.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image17.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image2.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image3.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image4.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image5.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image6.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image7.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image8.png" />
+    <Content Include="Content\imageKTNPotensialProducer\image9.png" />
     <Content Include="Content\imageLegal\image1.png" />
     <Content Include="Content\imageLegal\image10.png" />
     <Content Include="Content\imageLegal\image11.png" />
@@ -253,23 +270,69 @@
     <Content Include="Content\Person\image8.png" />
     <Content Include="Content\Person\image9.png" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\Telebat2.files\image001.png" />
+    <Content Include="Content\Telebat2.files\image002.png" />
+    <Content Include="Content\Telebat2.files\image003.png" />
+    <Content Include="Content\Telebat2.files\image004.png" />
+    <Content Include="Content\Telebat2.files\image005.jpg" />
+    <Content Include="Content\Telebat2.files\image006.jpg" />
+    <Content Include="Content\Telebat2.files\image007.jpg" />
+    <Content Include="Content\Telebat2.files\image008.jpg" />
+    <Content Include="Content\Telebat2.files\image009.jpg" />
+    <Content Include="Content\Telebat2.files\image010.png" />
+    <Content Include="Content\Telebat2.files\image011.png" />
+    <Content Include="Content\Telebat2.files\image012.png" />
+    <Content Include="Content\Telebat2.files\image013.png" />
+    <Content Include="Content\Telebat2.files\image014.png" />
+    <Content Include="Content\Telebat2.files\image015.png" />
+    <Content Include="Content\Telebat2.files\image016.jpg" />
+    <Content Include="Content\Telebat2.files\image017.jpg" />
+    <Content Include="Content\Telebat2.files\image018.jpg" />
+    <Content Include="Content\Telebat2.files\image019.png" />
+    <Content Include="Content\Telebat2.files\image020.png" />
+    <Content Include="Content\Telebat2.files\image021.png" />
+    <Content Include="Content\Telebat2.files\image022.png" />
+    <Content Include="Content\Telebat2.files\image023.jpg" />
+    <Content Include="Content\Telebat2.files\image024.png" />
+    <Content Include="Content\Telebat2.files\image025.png" />
+    <Content Include="Content\Telebat2.files\image026.jpg" />
+    <Content Include="Content\Telebat2.files\image027.jpg" />
+    <Content Include="Content\Telebat2.files\image028.jpg" />
+    <Content Include="Content\Telebat2.files\image029.jpg" />
+    <Content Include="Content\Telebat2.files\image030.jpg" />
+    <Content Include="Content\Telebat2.files\image031.jpg" />
+    <Content Include="Content\Telebat2.files\image032.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="Content\Telebat2.files\Thumbs.db" />
+    <Content Include="Content\SignUpPdf\Fiziki\Musteqil qeydiyyatdan kechen potensial istehsalchi.pdf" />
+    <Content Include="Content\SignUpPdf\Fiziki\Satıcın qeydiyyatdan kechmesi.pdf" />
+    <Content Include="Content\SignUpPdf\Fiziki\Siyahida olan potensial istehsalchi.pdf" />
+    <Content Include="Content\SignUpPdf\Huquqi\Musteqil qeydiyyatdan kechen potensial istehsalchi.pdf" />
+    <Content Include="Content\SignUpPdf\Huquqi\Satıcın qeydiyyatdan kechmesi.pdf" />
+    <Content Include="Content\SignUpPdf\Huquqi\Siyahida olan potensial istehsalchi.pdf" />
+    <Content Include="Content\OffersPdf\Fiziki\KTN terefinden tesdiq edilmish potensial istehsalchinin teklifleri.pdf" />
+    <Content Include="Content\OffersPdf\Fiziki\Musteqil qeydiyyatdan kechmish potensial isteshalchinin teklifleri.pdf" />
+    <Content Include="Content\OffersPdf\Fiziki\Saticinin teklifleri.pdf" />
+    <Content Include="Content\OffersPdf\Huquqi\KTN terefinden tesdiq edilmish potensial istehsalchinin teklifleri.pdf" />
+    <Content Include="Content\OffersPdf\Huquqi\Musteqil qeydiyyatdan kechmish potensial isteshalchinin teklifleri.pdf" />
+    <Content Include="Content\OffersPdf\Huquqi\Saticinin teklifleri.pdf" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
+    <Content Include="Telebat2.htm" />
+    <Content Include="Views\Home\PlaceOrderDownload.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Views\Home\ForOrder.cshtml" />
     <Content Include="Views\Home\KTN.cshtml" />
     <Content Include="Views\Home\PersonalCabinet.cshtml" />
     <Content Include="Views\Home\SignUp.cshtml" />
     <Content Include="Views\Home\PotentialClient.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -277,6 +340,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\WordDocumentAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -302,6 +366,10 @@
     <Content Include="Views\Home\LegalSellerSignUp.cshtml" />
     <Content Include="Views\Home\LegalPersonSignUp.cshtml" />
     <Content Include="Views\Home\LegalPotentialProducer.cshtml" />
+    <Content Include="Views\Shared\_LayoutWord.cshtml" />
+    <Content Include="Views\Home\empty.cshtml" />
+    <Content Include="Tpdf.pdf" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -311,7 +379,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

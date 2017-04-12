@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using LeftMenu1.Models;
 namespace LeftMenu1.Controllers
 {
     public class HomeController : Controller
@@ -13,6 +13,7 @@ namespace LeftMenu1.Controllers
         {
             return View();
         }
+        
         public ActionResult ForOrder()
         {
             return View();
@@ -78,6 +79,24 @@ namespace LeftMenu1.Controllers
             return View();
         }
         public ActionResult LegalPotentialProducer()
+        {
+            return View();
+        }
+      
+        public ActionResult ExpertToServiceWord()
+        {
+            return View();
+        }
+        [WordDocument]
+        public ActionResult PlaceOrderDownload()
+        {
+           
+            return View();
+        }
+
+
+        [WordDocument]
+        public ActionResult empty()
         {
             return View();
         }
