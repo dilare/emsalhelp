@@ -368,7 +368,7 @@
     <Content Include="Views\Home\LegalPotentialProducer.cshtml" />
     <Content Include="Views\Shared\_LayoutWord.cshtml" />
     <Content Include="Views\Home\empty.cshtml" />
-    <Content Include="Tpdf.pdf" />
+    <Content Include="Content\Tpdf.pdf" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
