@@ -227,4 +227,3 @@ C:\Users\Intergration\Desktop\emsalhelp\LeftMenu1\bin\System.Web.Helpers.xml
 C:\Users\Intergration\Desktop\emsalhelp\LeftMenu1\bin\System.Web.Mvc.xml
 C:\Users\Intergration\Desktop\emsalhelp\LeftMenu1\obj\Debug\LeftMenu1.dll
 C:\Users\Intergration\Desktop\emsalhelp\LeftMenu1\obj\Debug\LeftMenu1.pdb
-C:\Users\Intergration\Desktop\emsalhelp\LeftMenu1\obj\Debug\LeftMenu1.csprojResolveAssemblyReference.cache
