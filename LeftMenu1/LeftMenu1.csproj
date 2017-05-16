@@ -276,9 +276,10 @@
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="Content\Tpdf.pdf" />
+    <Content Include="Content\SignUpPdf\Fiziki\Siyahida olan potensial istehsalchi.pdf" />
     <Content Include="Content\SignUpPdf\Fiziki\Musteqil qeydiyyatdan kechen potensial istehsalchi.pdf" />
     <Content Include="Content\SignUpPdf\Fiziki\Satıcın qeydiyyatdan kechmesi.pdf" />
-    <Content Include="Content\SignUpPdf\Fiziki\Siyahida olan potensial istehsalchi.pdf" />
     <Content Include="Content\SignUpPdf\Huquqi\Musteqil qeydiyyatdan kechen potensial istehsalchi.pdf" />
     <Content Include="Content\SignUpPdf\Huquqi\Satıcın qeydiyyatdan kechmesi.pdf" />
     <Content Include="Content\SignUpPdf\Huquqi\Siyahida olan potensial istehsalchi.pdf" />
@@ -335,7 +336,6 @@
     <Content Include="Views\Home\LegalPotentialProducer.cshtml" />
     <Content Include="Views\Shared\_LayoutWord.cshtml" />
     <Content Include="Views\Home\empty.cshtml" />
-    <Content Include="Content\Tpdf.pdf" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
